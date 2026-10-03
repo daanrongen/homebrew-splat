@@ -2,8 +2,8 @@
 class Splat < Formula
   desc "Universal converter and model-backed toolkit for Gaussian splats and images"
   homepage "https://github.com/daanrongen/splat"
-  url "https://github.com/daanrongen/splat/releases/download/v0.1.3/splat-0.1.3-src.tar.gz"
-  sha256 "f636311d7a38f0f795df99557e9fbab9f6e8f2e6a7d2680353cf6622cef0d72e"
+  url "https://github.com/daanrongen/splat/releases/download/v0.1.4/splat-0.1.4-src.tar.gz"
+  sha256 "3f1fe8b392009ff10bc744562a61ee4e5d0381356bfc108b417175525ef5390b"
   license "MIT"
 
   depends_on arch: :arm64
