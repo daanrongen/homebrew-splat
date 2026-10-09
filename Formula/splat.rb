@@ -2,9 +2,12 @@
 class Splat < Formula
   desc "Universal converter and model-backed toolkit for Gaussian splats and images"
   homepage "https://github.com/daanrongen/splat"
-  url "https://github.com/daanrongen/splat/releases/download/v0.1.5/splat-0.1.5-src.tar.gz"
-  sha256 "88d13e9671a96b4d7177eedf327ffe4fe84ab0ccf79e469c3c2a5e0493c6790d"
+  url "https://github.com/daanrongen/splat/releases/download/v0.1.6/splat-0.1.6-src.tar.gz"
+  sha256 "dea4247add65b9ac3a537fb7c30729e1825ca364ad4e83d92895b4f91d180808"
   license "MIT"
+
+  # keeps torch's @rpath dylib ids, which torchvision's extension resolves against
+  preserve_rpath
 
   depends_on arch: :arm64
   depends_on :macos
