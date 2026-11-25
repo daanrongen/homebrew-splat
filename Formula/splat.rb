@@ -2,9 +2,9 @@ class Splat < Formula
   desc "Local-first asset pipeline for Apple Silicon: images, depth, splats and meshes"
   homepage "https://github.com/daanrongen/splat"
   # url, version and sha256 are updated by .github/workflows/update.yml
-  url "https://github.com/daanrongen/splat/releases/download/v0.1.13/splat-0.1.13-macos-arm64.tar.gz"
-  version "0.1.13"
-  sha256 "b97b731158f99b1763d41f0a32487e254535e263c5fde77ae8858b3d8b5fadb4"
+  url "https://github.com/daanrongen/splat/releases/download/v0.1.14/splat-0.1.14-macos-arm64.tar.gz"
+  version "0.1.14"
+  sha256 "0aae2c324ec434c46ca592540cf3c8535e1c233d387b258fcc791f26bf048c6b"
   license "MIT"
 
   depends_on arch: :arm64
